@@ -16,12 +16,19 @@ Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de c
 Componentes:
 
 • Arduino Uno R3
+
 • Protoboard
+
 • Sensor TCS230 // Fotoresistor (Temporário)
+
 • Led RGB
+
 • Potenciômetro
+
 • 3 - Resistores de 220 Ohms e 2 - Resistores de 397 Ohms
+
 • Tela LCD 16x2
+
 • Pelo menos 27 Cabos de conexões
 
 
@@ -38,7 +45,11 @@ Montagem:
 • Conecte todos os cabos e componentes de acordo com o simulador, podendo interligar o Potenciômetro e o LCD direto na protoboard
 
 
+instalação da IDE e reutilização do código: 
 
+• Primeiro, é necessário instalar o software da IDE do arduino uno para que o código seja compilado
+
+• No segundo passo é necessário instalar a biblioteca LiquidCrystal.h
 
 
 
