@@ -14,3 +14,5 @@ Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de c
 
 
 Link do simulador: https://wokwi.com/projects/394054341549709313
+
+Vídeo sobre o Projeto: https://youtu.be/2pMv49kRQCc?si=PYmq4LWX-dGeuyjl 
