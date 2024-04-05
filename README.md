@@ -15,21 +15,21 @@ Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de c
 
 --Componentes--
 
-• Arduino Uno R3
+• Arduino Uno R3.
 
-• Protoboard
+• Protoboard.
 
-• Sensor TCS230 // Fotoresistor (Temporário)
+• Sensor TCS230 // Fotoresistor (Temporário).
 
-• Led RGB
+• Led RGB.
 
-• Potenciômetro
+• Potenciômetro.
 
-• 3 - Resistores de 220 Ohms e 2 - Resistores de 397 Ohms
+• 3 - Resistores de 220 Ohms e 2 - Resistores de 397 Ohms.
 
-• Tela LCD 16x2
+• Tela LCD 16x2.
 
-• Pelo menos 27 Cabos de conexões
+• Pelo menos 27 Cabos de conexões.
 
 
  --Montagem--
@@ -40,27 +40,24 @@ Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de c
 
 • Conecte o Led RGB na protoboard junto de 3 resistores, e deixe apenas a perna maior sem resistor (Perna negativa).
 
-• Interligue os cabos Macho/Fêmea no Fotoresistor, e utilize o último resistor de 397 Ohms na perna GND do Fotoresistor (O mesmo se aplica ao TCS230)
+• Interligue os cabos Macho/Fêmea no Fotoresistor, e utilize o último resistor de 397 Ohms na perna GND do Fotoresistor (O mesmo se aplica ao TCS230).
 
-• Conecte todos os cabos e componentes de acordo com o simulador, podendo interligar o Potenciômetro e o LCD direto na protoboard
+• Conecte todos os cabos e componentes de acordo com o simulador, podendo interligar o Potenciômetro e o LCD direto na protoboard.
 
 
 --Instalação da IDE e reutilização do código--
 
-• Primeiro, é necessário instalar o software da IDE do arduino uno para que o código seja compilado
+• Primeiro, é necessário instalar o software da IDE do arduino uno para que o código seja compilado.
 
-• No segundo passo é necessário instalar a biblioteca LiquidCrystal.h, para instalar é necessário seguir os seguintes passos primeiro vá para "Sketch", em seguida até "Include Library", depois "Manage Libraries" e em seguida procure por, "LiquidCrystal"
-Localize a biblioteca "LiquidCrystal" feita pelo Francisco Malpartida e instale em sua IDE.
+• No segundo passo é necessário instalar a biblioteca LiquidCrystal.h, para instalar é necessário seguir os seguintes passos primeiro vá para "Sketch", em seguida até "Include Library", depois "Manage Libraries" e em seguida procure por, "LiquidCrystal", localize a biblioteca "LiquidCrystal" feita pelo Francisco Malpartida e instale em sua IDE.
 
+• Abra o simulador e copie o código fornecido, cole na área do código de sua IDE.
 
+• Conecte o arduino em seu computador por meio de um cabo USB específico, entre na aba "Tools", depois "Port" e selecione a porta que o arduino estiver conectado.
 
+•Compile o código colado do simulador na IDE do arduino, clique no botão de "Verificar" "☑️", e caso não possua erros, clique no botão "carregar" "➡️".
 
-
-instruções de uso: 
-O principal modo de uso deste sistema, é com base no seu sensor de cor, ou seja, o sensor capta as cores RGB, e envia para o arduino, gerando assim, sinais onde são enviados para o LED RGB, e para o LCD.
-O LED RGB é ativado conforme a cor mostrada pelo sensor de cor, sendo assim, a a luz do LED liga conforme a cor.
-O LCD mostrar informações sobre o exame, local que deverá ir, e a cor que foi instruído a ser captado.
-Por fim temos o potenciômetro, que é responsável pela luminosidade do LCD, que terá por finalidade apenas para ajustes de brilho.
+• Verifique o contraste do LCD pelo potenciômetro, e para finalizar, teste os sensores utilizando as cores, verificando se o LED acenderá e se as informações serão passadas pelo LCD.
 
 
 Link do simulador: https://wokwi.com/projects/394054341549709313
