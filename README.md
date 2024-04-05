@@ -13,7 +13,7 @@ Nosso sistema Arduino utiliza um conjunto de códigos que se baseia na cor exibi
 Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de cor, utilizamos temporariamente um sensor de luminosidade (LDR), que se aproxima da função do sensor de cor. Utilizamos também uma tela LCD exibe a área do exame a ser realizado. Além disso, um LED RGB que acende de acordo com a cor captada pelo sensor de cores, neste caso do simulador, o sensor de luz. Por exemplo, se a cor verde for detectada, a luz verde do LED acenderá, e assim sucessivamente para outras cores.
 
 
-Componentes:
+--Componentes--
 
 • Arduino Uno R3
 
@@ -32,7 +32,7 @@ Componentes:
 • Pelo menos 27 Cabos de conexões
 
 
-Montagem: 
+ --Montagem--
 
 • Comece primeiro conectando a tela LCD na protoboard ou direto nos fios Macho/Fêmea, em seguida utilize um dos cabos para conectar direto ao potenciômetro.
 
@@ -45,7 +45,7 @@ Montagem:
 • Conecte todos os cabos e componentes de acordo com o simulador, podendo interligar o Potenciômetro e o LCD direto na protoboard
 
 
-instalação da IDE e reutilização do código: 
+--Instalação da IDE e reutilização do código--
 
 • Primeiro, é necessário instalar o software da IDE do arduino uno para que o código seja compilado
 
