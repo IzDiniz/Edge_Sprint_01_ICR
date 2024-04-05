@@ -28,9 +28,13 @@ Componentes:
 Montagem: 
 
 • Comece primeiro conectando a tela LCD na protoboard ou direto nos fios Macho/Fêmea, em seguida utilize um dos cabos para conectar direto ao potenciômetro.
+
 • Ultilize um dos resistores de 397 Ohms na porta LCDA.
+
 • Conecte o Led RGB na protoboard junto de 3 resistores, e deixe apenas a perna maior sem resistor (Perna negativa).
+
 • Interligue os cabos Macho/Fêmea no Fotoresistor, e utilize o último resistor de 397 Ohms na perna GND do Fotoresistor (O mesmo se aplica ao TCS230)
+
 • Conecte todos os cabos e componentes de acordo com o simulador, podendo interligar o Potenciômetro e o LCD direto na protoboard
 
 
