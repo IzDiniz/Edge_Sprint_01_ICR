@@ -49,7 +49,9 @@ Como nosso protótipo foi criado no simulador Wokwi, que não possui sensor de c
 
 • Primeiro, é necessário instalar o software da IDE do arduino uno para que o código seja compilado
 
-• No segundo passo é necessário instalar a biblioteca LiquidCrystal.h
+• No segundo passo é necessário instalar a biblioteca LiquidCrystal.h, para instalar é necessário seguir os seguintes passos primeiro vá para "Sketch", em seguida até "Include Library", depois "Manage Libraries" e em seguida procure por, "LiquidCrystal"
+Localize a biblioteca "LiquidCrystal" feita pelo Francisco Malpartida e instale em sua IDE.
+
 
 
 
